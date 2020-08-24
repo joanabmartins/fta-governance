@@ -7,7 +7,7 @@
 
 **Slideless** No PowerPoint, we promise! As we update this content you will get the changes straight away.
 
-Please give us your feedback on https://aka.ms/ftafeedbackwvd
+Please give us your feedback on https://aka.ms/ftafeedback
 
 Agenda
 1. Organize resources
