@@ -7,6 +7,8 @@
 
 **Slideless** No PowerPoint, we promise! As we update this content you will get the changes straight away.
 
+**Feeback** We would love to hear your thoughts, please provide us your feedback [//aka.ms/ftalive](https://aka.ms/ftalive).
+
 Agenda
 1. [Setup guide overview](https://ms.portal.azure.com/#blade/Microsoft_Azure_Resources/QuickstartPlaybookBlade/guideId/intro-azure-setup)
 1. Organize resources
