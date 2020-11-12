@@ -7,8 +7,6 @@
 
 **Slideless** No PowerPoint, we promise! As we update this content you will get the changes straight away.
 
-Please give us your feedback on https://aka.ms/ftalive-gov-feedback
-
 Agenda
 1. [Setup guide overview](https://ms.portal.azure.com/#blade/Microsoft_Azure_Resources/QuickstartPlaybookBlade/guideId/intro-azure-setup)
 1. Organize resources
