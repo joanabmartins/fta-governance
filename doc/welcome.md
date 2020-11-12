@@ -9,6 +9,8 @@
 
 **Feeback** We would love to hear your thoughts, please provide us your feedback [//aka.ms/ftalive](https://aka.ms/ftalive).
 
+![Feedback screenshot](/png/feedback.png)
+
 Agenda
 1. [Setup guide overview](https://ms.portal.azure.com/#blade/Microsoft_Azure_Resources/QuickstartPlaybookBlade/guideId/intro-azure-setup)
 1. Organize resources
