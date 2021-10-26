@@ -10,6 +10,8 @@ Here are some extra links about the topics that we discussed.
 
 *	If you are already engaged with FTA, we expect that you are already in the [Ready phase](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-guidelines), where you can find prescriptive best practices to help your Azure implementation.
 
+
+
 ### [Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
 *	We discussed the azure governance hierarchy: [management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview), subscriptions and resource groups. These features make it possible to granularly or broadly (as you wish) give access to azure resources, create policies and control costs. 
 
