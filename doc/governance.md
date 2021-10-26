@@ -6,15 +6,18 @@ Here are some extra links about the topics that we discussed.
 
 ## [Azure CAF](https://aka.ms/caf) 
 
-⋅⋅*	We started our session discussing Cloud Adoption Framework. We talked about the different stages of cloud adoption. 
+*	We started our session discussing Cloud Adoption Framework. We talked about the different stages of cloud adoption. 
 
-⋅⋅*	If you are already engaged with FTA, we expect that you are already in the [Ready phase](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-guidelines), where you can find prescriptive best practices to help your Azure implementation.
+*	If you are already engaged with FTA, we expect that you are already in the [Ready phase](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-guidelines), where you can find prescriptive best practices to help your Azure implementation.
 
-[Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
-⋅⋅*	We discussed the azure governance hierarchy: [management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview), subscriptions and resource groups. These features make it possible to granularly or broadly (as you wish) give access to azure resources, create policies and control costs. 
-⋅⋅*	Subscriptions are also boundaries for resource connection. You can’t have VMs in separate subscriptions connected to the same VNet. You will need to have a vnet for each subscription and if you need communication between them you will need to do an extra configuration ([VNet peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)) that will also reflect in extra costs.
-⋅⋅*All the resources on Azure (vms, disks, app services,..) must be linked to one and only one resource group and subscription.
-⋅⋅*We usually tend to advice to follow the simplest design, always being aware of the [subscription limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits). 
+## [Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
+*	We discussed the azure governance hierarchy: [management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview), subscriptions and resource groups. These features make it possible to granularly or broadly (as you wish) give access to azure resources, create policies and control costs. 
+
+*	Subscriptions are also boundaries for resource connection. You can’t have VMs in separate subscriptions connected to the same VNet. You will need to have a vnet for each subscription and if you need communication between them you will need to do an extra configuration ([VNet peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)) that will also reflect in extra costs.
+
+*All the resources on Azure (vms, disks, app services,..) must be linked to one and only one resource group and subscription.
+
+*We usually tend to advice to follow the simplest design, always being aware of the [subscription limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits). 
 
 [Naming Convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
 ⋅⋅*It’s important to have a naming convention from the start as you are not able to change names on Azure resources.
