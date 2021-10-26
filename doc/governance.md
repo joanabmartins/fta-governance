@@ -10,7 +10,7 @@ Here are some extra links about the topics that we discussed.
 
 *	If you are already engaged with FTA, we expect that you are already in the [Ready phase](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-guidelines), where you can find prescriptive best practices to help your Azure implementation.
 
-## [Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
+### [Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
 *	We discussed the azure governance hierarchy: [management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview), subscriptions and resource groups. These features make it possible to granularly or broadly (as you wish) give access to azure resources, create policies and control costs. 
 
 *	Subscriptions are also boundaries for resource connection. You can’t have VMs in separate subscriptions connected to the same VNet. You will need to have a vnet for each subscription and if you need communication between them you will need to do an extra configuration ([VNet peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)) that will also reflect in extra costs.
