@@ -4,7 +4,7 @@ Thank you so much for your time this week.
 
 Here are some extra links about the topics that we discussed.
 
-##[Azure CAF](https://aka.ms/caf) 
+## [Azure CAF](https://aka.ms/caf) 
 
 ⋅⋅*	We started our session discussing Cloud Adoption Framework. We talked about the different stages of cloud adoption. 
 
