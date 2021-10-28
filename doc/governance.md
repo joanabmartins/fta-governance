@@ -39,7 +39,7 @@ Here are some extra links about the topics that we discussed.
 <br>
 
 
-### [Tags](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?tabs=json)
+### [Tags](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
 * With tags you can add metadata to your resource to logically organize them.
 * You can automatically add tags through policies. 
 * You can also use tags to filter your azure invoice and understand how much a value with the tag Cost Center: 1 or Department: Finance costs. 
