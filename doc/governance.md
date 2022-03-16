@@ -38,6 +38,12 @@ Here are some extra links about the topics that we discussed.
 
 <br>
 
+### [Azure ARC](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
+* Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
+
+* Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure: Servers(https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview), Kubernetes clusters(https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/overview), data services(https://docs.microsoft.com/en-us/azure/azure-arc/data/overview) and SQL Servers(https://docs.microsoft.com/en-us/sql/sql-server/azure-arc/overview).
+
+* FastTrack for Azure Live deliveres specific sessions about Azure Arc, you can register for the next sessions through our portal.
 
 ### [Tags](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
 * With tags you can add metadata to your resource to logically organize them.
