@@ -1,6 +1,6 @@
 # Azure Governance
 
-Thank you so much for your time this week.
+Thank you so much for your time during our session.
 
 Here are some extra links about the topics that we discussed.
 
