@@ -45,6 +45,8 @@ Here are some extra links about the topics that we discussed.
 
 * FastTrack for Azure Live deliveres specific sessions about Azure Arc, you can register for the next sessions through our portal.
 
+<br>
+
 ### [Tags](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
 * With tags you can add metadata to your resource to logically organize them.
 * You can automatically add tags through policies. 
