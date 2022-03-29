@@ -41,7 +41,7 @@ Here are some extra links about the topics that we discussed.
 ### [Azure ARC](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
 * Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
 
-* Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure: [Servers9(https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview), [Kubernetes clusters](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/overview), [data services](https://docs.microsoft.com/en-us/azure/azure-arc/data/overview) and [SQL Servers](https://docs.microsoft.com/en-us/sql/sql-server/azure-arc/overview).
+* Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure: [Servers](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview), [Kubernetes clusters](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/overview), [data services](https://docs.microsoft.com/en-us/azure/azure-arc/data/overview) and [SQL Servers](https://docs.microsoft.com/en-us/sql/sql-server/azure-arc/overview).
 
 * FastTrack for Azure Live deliveres specific sessions about Azure Arc, you can register for the next sessions through our portal.
 
