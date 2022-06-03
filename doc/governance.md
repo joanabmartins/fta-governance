@@ -1,78 +1,56 @@
-# Azure Governance
+# Welcome to the FastTrack for Azure Governance Call
+## We will start 3-4 minutes after the scheduled time to accommodate those still connecting
 
-Thank you so much for your time during our session.
+> This call will not be recorded due to the wide audience and to encourage questions.
 
-Here are some extra links about the topics that we discussed.
+**Questions?** Feel free to type them in the chat window at any time. Note that questions you post will be public. 
 
-### [Azure CAF](https://aka.ms/caf) 
+**Slideless** No PowerPoint, we promise! As we update this content you will get the changes straight away.
 
-*	We started our session discussing Cloud Adoption Framework. We talked about the different stages of cloud adoption. 
+**Feeback** We would like to hear your thoughts, please provide us your feedback [https://aka.ms/ftalive-feedback](https://aka.ms/ftalive-feedback).
 
-*	If you are already engaged with FTA, we expect that you are already in the [Ready phase](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-guidelines), where you can find prescriptive best practices to help your Azure implementation.
+### Agenda
+1. [Why talk about governance?](./why.md)
+1. [Setup guide overview](https://portal.azure.com/#blade/Microsoft_Azure_Resources/QuickstartPlaybookBlade/guideId/intro-azure-setup)
+1. Organize resources
+    1. [Azure Resource Manager Overview](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview)
+    1. [Management Groups Overview](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
+    1. [Define Naming Conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+    1. [Developing Naming and Tagging Strategy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging)
+    1. [Lock resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources)
+1. Manage policy and compliance
+    1. [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/overview)
+    1. [Policy Effects](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/effects)
+1. Manage access
+    1. [Role Based Access Control](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/roles)
+1. Manage costs and billing
+    1. [Cost Management + Billing Overview](https://docs.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview)
+    1. [Start Analyzing Costs](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?tabs=azure-portal)
+    1. [Create and Manage Budgets](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
 
-<br>
+#### Additional Resources
+* [Microsoft Cloud Adoption Framework](https://aka.ms/caf) - collection of documentation, implementation guidance, best practices, and tools that are proven guidance from Microsoft designed to accelerate your cloud adoption journey
+* [Azure Governance DevOps Generator](http://aka.ms/azgovernancereadiness) - implement governance practices following best practices using Azure DevOps boards.
+* [Azure Advisor](https://docs.microsoft.com/en-us/azure/advisor/advisor-overview) - Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It gives you recommendations on five categories: reliability, security, performance, cost and operational excellence.
+* [Azure Arc](https://docs.microsoft.com/en-us/azure/azure-arc/overview) - it simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
+* [Microsoft Defender for Cloud policies](https://docs.microsoft.com/en-us/azure/defender-for-cloud/security-policy-concept) - MDfC is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all of your Azure, on-premises, and multi-cloud resources. 
 
-### [Azure Hierarchy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/) 
-*	We discussed the azure governance hierarchy: [management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview), subscriptions and resource groups. These features make it possible to granularly or broadly (as you wish) give access to azure resources, create policies and control costs. 
-
-*	Subscriptions are also boundaries for resource connection. You can’t have VMs in separate subscriptions connected to the same VNet. You will need to have a vnet for each subscription and if you need communication between them you will need to do an extra configuration ([VNet peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)) that will also reflect in extra costs.
-
-* All the resources on Azure (vms, disks, app services,..) must be linked to one and only one resource group and subscription.
-
-* We usually tend to advice to follow the simplest design, always being aware of the [subscription limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits). 
-
-<br>
-
-### [Naming Convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
-* It’s important to have a naming convention from the start as you are not able to change names on Azure resources.
-
-<br>
-
-
-### [Policies](https://docs.microsoft.com/en-us/azure/governance/policy/overview)
-* We discussed how you can create rules (policies) on Azure to comply your subscription users to follow your requirements. 
-
-* You can use policies with different [effects](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/effects) (deny, audit, deployifnotexists..).
-
-* Policies are most commonly used for cost management (for example, block premium and expensive SKUs), for resource consistency (for example, to enforce naming conventions and deployment locations) and for security (all subscriptions come already with a group of policies assigned by [Security Center](https://docs.microsoft.com/en-us/azure/security-center/security-center-introduction) based on [Azure Security Benchmark](https://docs.microsoft.com/en-us/azure/security-center/recommendations-reference)), 
-
-<br>
-
-### [Azure ARC](https://docs.microsoft.com/en-us/azure/azure-arc/overview)
-* Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
-
-* Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure: [Servers](https://docs.microsoft.com/en-us/azure/azure-arc/servers/overview), [Kubernetes clusters](https://docs.microsoft.com/en-us/azure/azure-arc/kubernetes/overview), [data services](https://docs.microsoft.com/en-us/azure/azure-arc/data/overview) and [SQL Servers](https://docs.microsoft.com/en-us/sql/sql-server/azure-arc/overview).
-
-* FastTrack for Azure Live deliveres specific sessions about Azure Arc, you can register for the next sessions through our portal.
-
-<br>
-
-### [Tags](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
-* With tags you can add metadata to your resource to logically organize them.
-* You can automatically add tags through policies. 
-* You can also use tags to filter your azure invoice and understand how much a value with the tag Cost Center: 1 or Department: Finance costs. 
-
-<br>
-
-
-
-### [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
-* For access control we talked about the RBAC.
-
-* You have a lot of [built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) that you can [assign](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=current) to user or group on Azure AD to a scope of a resource, resource group, subscription or management group
-
-* You can also [create your own roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles) in JSON and assign them the same way.
-
-<br>
-
-
-### [Locks](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json)
-* You should lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources.
-
-<br>
-
-
-### [Advisor](https://docs.microsoft.com/en-us/azure/advisor/advisor-overview)
-* Use Azure Advisor as a free tool to help you follow best practices to optimize your Azure deployments. 
-
-* It analyzes your resource configuration and recommends solutions that can help you improve the cost effectiveness, performance, Reliability (formerly called High availability), and security of your Azure resources.
+#### Call to Action
+1. Organize resources
+    1. Define a resource group design for resource organization and management
+    1. Define a subscription and management group design and how you plan to scale
+    1. Define naming standards and a tagging design
+    1. Setup resource locks 
+1. Manage policy and compliance
+    1. Define your compliance requirements regarding cost management (for example, don't use premium and expensive SKUs in lab environments), resource consistency (for example, enforce naming conventions, tags and deployment locations) and security (all subscriptions come already with a group of security audit policies assigned by Defender for Cloud, but you may have other requirements. 
+    1. Translate those requirements into Azure Policies/Initiatives with different effects: audit, deny, deployifnotexists, etc.
+    1. Define processes to regularly check policy compliance.
+1. Manage access
+    1. Define an identity structure (e.g. who/what needs access, what scope, what permissions, etc.)
+    1. Define an auditing strategy to validate usage of identities to identify and remove unnecessary access
+    1. Enable MFA for all users accessing Azure to manage resources through the portal, REST APIs, PowerShell, CLI, etc.
+    1. Setup emergency administrative accounts (i.e. break glass accounts)
+1. Manage costs and billing
+    1. Review your costs and determine how to best monitor costs
+    1. Setup applicable budgets and alerts
+    1. Regularly review cost recommendations in Azure Advisor
